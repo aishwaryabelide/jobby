@@ -1,0 +1,40 @@
+.header-container {
+  background-color: #272727;
+  color: #f8fafc;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logout-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  border-width: 0px;
+  outline: none;
+  font-weight: bold;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.menu-items {
+  margin-right: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
